@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Donnie Alimov portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/80833262c1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a href=""><img class="logo" src="./Donnie2.JPG" alt="mypicture"></a>
+        <a class="navbar-brand" href="#">Donnie Alimov's Portfolio</a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <span class="navbar-nav ml-auto"></span>
+          <span class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </span>
+            <span class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </span>
+            <span class="nav-item"></span>
+              <a class="nav-link" href="portfolio.html">Experience</a>
+              <span class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </span>
+            
+        </div>
+    </nav>
+
+    
+    <header class="header">
+      <h1>My Weather Forcast API</h1>
+  </header>
+
+  <div class="container">
+      <div class="search">
+          <div class="row">
+              <h1>Search for a City:</h1>
+          </div>
+          <div class="row">
+              <input type="text" class="searchInput" placeholder="Seattle">
+              <button type="submit" class="searchBtn">
+              <i class="fas fa-search"></i>
+              </button>
+          </div>
+          <div class="historyItems"></div>
+      </div>
+      <div class="col-two-container">
+          <div class="forecast">
+              <div class="row">
+                  <h1 class="cityName">City Name</h1>
+                  <h1 class="currentDate"></h1>
+                  <img class="weatherIcon"></img>
+              </div>
+              <div class="row">
+                  <p class="temp">Temperature:</p>
+              </div>
+              <div class="row">
+                  <p class="humidity">Humidity:</p>
+              </div>
+              <div class="row">
+                  <p class="windSpeed">Wind Speed:</p>
+              </div>
+              <div class="row">
+                  <p class="uvIndex">UV Index:</p>
+              </div>
+          </div>
+
+          <div class="five-day-container">
+              <h1>5-Day Forecast:</h1>
+              <div class="card-row">
+              </div>
+          </div>
+      </div>
+  </div>
+
+            <div class="container-contact">
+  
+              <h1 class="display-4">Contact me</h1>
+              <div class="row">
+                <div class="col6">
+                  <table class="table">
+                    <tr>
+                      <th>Phone</th>
+                      <td>
+                        <a href="tel:+16137249144">(613) 724 - 9144</a>  
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Email</th>
+                      <td>
+                        <a href="mailto:>mralimov89@gmail.com">mralimov89@gmail.com</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Address</th>
+                      <td>28 Borealis cres, Ottawa, ON....</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="col-6 ml-auto">
+                  <h4>Send me a message!</h4>
+                  <input placeholder="Full name" class="form-control">
+                  <input  placeholder="email" class="form-control">
+                  <label style="margin:10px">Message</label>
+                    <textarea class="form-control"></textarea>
+                    <button class="btn btn-primary">Send Message</button>
+              </div>
+               
+                              
+                    <tr>
+                    <div class="col-12">
+        
+                    </div>
+                </div>
+</div>
+<div class="icon-bar">
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-google"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-pinterest"></a>
+</div>
+</tr>
+<script src="./javascript.js"></script>
+</body>
+</html>
